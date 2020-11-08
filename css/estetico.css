@@ -1,7 +1,21 @@
-button{
+#primer-boton{
     height: 50px;
     width: 170px;
     border-radius: 150px;
     background: #009975;
     color: #195e4b;
+}
+#variocolor{
+    height: 50px;
+    width: 170px;
+    border-radius: 150px;
+    background: #253664;
+    color: #ffffff;
+}
+#color-blanco{
+    height: 50px;
+    width: 170px;
+    border-radius: 150px;
+    background: #fff;
+    color: #000000;
 }
