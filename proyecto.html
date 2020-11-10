@@ -17,7 +17,7 @@
                         To Start Business</h1>
                     <p>Lorem ipsum dolor sit amet, id nec enim autem oblique, ei dico mentitum duo.
                         Illum iusto laoreet his te. Lorem partiendo mel ex. Ad vitae admodum voluptatum per.</p>
-                    <button id="primer-boton">Get Started</button>
+                    <button id="primer-boton" class="btn btn-outline-dark">Get Started</button>
                 </div>
             </div>
         </div>
@@ -26,59 +26,69 @@
     <div class="nuestros-servicios">
         <div class="container">
             <div class="center">
-                <div class="row text-center">
+                <div class="row text-center border-0">
                     <div class="col-sm-12 text-center">
                         <h2>Smartest protection for your site</h2>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="proteccion1">
-                        <img id="protect" src="Imagenes/smart-protect-1.svg" alt="">
-                        <div class="icono">
-                            <h3>Anti-spam</h3>
-                            <p>Lorem ipsum dolor sit amet porro his no his deleniti</p>
-                        </div>
+               <!--3 recuadros-->
+               <div class="row">
+                <div class="col-sm-4">
+                  <div class="card text-center border-0">
+                    <img src="Imagenes/smart-protect-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Anti-spam</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet porro his no his deleniti</p>
                     </div>
-                    <div class="proteccion2">
-                        <img id="protect" src="Imagenes/smart-protect-2.svg" alt="">
-                        <div class="icono">
-                            <h3>Phishing Detect</h3>
-                            <p>Ne error antiopam usu. Sed vocen concludaturque ea</p>
-                        </div>
-                    </div>
-                    <div class="proteccion1">
-                        <img id="protect" src="Imagenes/smart-protect-3.svg" alt="">
-                        <div class="icono">
-                            <h3>Smart Scan</h3>
-                            <p>Et usu ocurreret elaboraret doctus prodesse assueverit.</p>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-sm-4">
+                  <div class="card text-center border-0">
+                    <img src="Imagenes/smart-protect-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-title">Phishing Detect</h4>
+                      <p class="card-text">Ne error antiopam usu. Sed vocen concludaturque ea</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-center border-0">
+                        <img src="Imagenes/smart-protect-3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h4 class="card-title">Smart Scan</h4>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+               <!--fin de 3 recuadros-->
             </div>
         </div>
     </div>
     <!--parte 3 del maqueteado-->
-    <div class="parte3">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5">
-                    <h1>Take a look inside</h1>
-                    <p>Te iisque labitur eos, nec sale argumentum scribentur no,
-                        augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
-                        <button id="variocolor">Learn more</button>
+    <div class="informacion-extra">
+        <div class="parte3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h1>Take a look inside</h1>
+                        <p>Te iisque labitur eos, nec sale argumentum scribentur no,
+                            augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
+                            <button id="variocolor" class="btn">Learn more</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--parte 3/2 del maqueteado-->
-    <div class="parte3-izquierda">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10.5 offset-sm-7">
-                    <h1>Safe and reliable</h1>
-                    <p>Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
-                        eum et oratio disputationi. Falli lobortis his ad</p>
-                        <button id="variocolor">Learn more</button>
+        <!--parte 3/2 del maqueteado-->
+        <div class="parte3-izquierda">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10.5 offset-sm-7">
+                        <h1>Safe and reliable</h1>
+                        <p>Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
+                            eum et oratio disputationi. Falli lobortis his ad</p>
+                            <button id="variocolor" class="btn">Learn more</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,41 +103,44 @@
                     </div>
                 </div>
                 <!--Parte de los precios-->
-                <div class="card-deck">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h2 class="card-title">STARTUP</h2>
-                            <p class="card-text">$0/MO</p>
-                            <p class="card-text">Up to 5 documents</p>
-                            <p class="card-text">Up to 3 reviews</p>
-                            <p class="card-text">5 team Members</p>
-                            <p class="card-text">Limited Support</p>
-                            <button id="color-blanco">Get free</button>
+                    <div class="row">
+                        <div class="col-sm-4">
+                          <div id="cartas-en-blanco" class="card text-center border-0">
+                            <div class="card-body">
+                              <h5 class="card-title">STARTUP</h5>
+                              <p class="card-text">Up to 5 Documents</p>
+                              <p class="card-text">Up to 3 Reviews</p>
+                              <p class="card-text">5 team Members</p>
+                              <p class="card-text">Limited Support</p>
+                              <button id="color-blanco" class="btn btn-outline-dark">Get free</button>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h2 class="card-title">PREMIUM</h2>
-                            <p class="card-text">$ 10 / MO.</p>
-                            <p class="card-text">Up to 15 Documents</p>
-                            <p class="card-text">Up to 10 Reviews</p>
-                            <p class="card-text">25 team Members</p>
-                            <p class="card-text">Limited Support</p>
-                            <button id="color-celeste">Get free</button>
+                        <div class="col-sm-4">
+                          <div id="tarjeta-de-color" class="card text-center border-0">
+                            <div class="card-body">
+                              <h5 class="card-title">PREMIUM</h5>
+                              <p class="card-text">Up to 15 Documents</p>
+                              <p class="card-text">Up to 10 Reviews</p>
+                              <p class="card-text">25 team Members</p>
+                              <p class="card-text">Limited Support</p>
+                              <button id="boton-medio" class="btn btn-outline-dark">Get free</button>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h2 class="card-title">PROFESSIONAL</h2>
-                            <p class="card-text">$ 30 / MO.</p>
-                            <p class="card-text">Unlimited Documents</p>
-                            <p class="card-text">Unlimited Reviews</p>
-                            <p class="card-text">Unlimited Members</p>
-                            <p class="card-text">Unlimited Support</p>
-                            <button id="color-blanco">Get free</button>
-                        </div>
-                    </div>
-                </div>
+                        <div class="col-sm-4">
+                            <div id="cartas-en-blanco" class="card text-center border-0">
+                              <div class="card-body">
+                                <h5 class="card-title">PROFESSIONAL</h5>
+                                <p class="card-text">Unlimited Documents</p>
+                                <p class="card-text">Unlimited Reviews</p>
+                                <p class="card-text">Unlimited Members</p>
+                                <p class="card-text">Unlimited Supports</p>
+                                <button id="color-blanco" class="btn btn-outline-dark">Get free</button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
                 <!--aqui termina los precios-->
             </div>
         </div>
@@ -136,7 +149,9 @@
     <div class="logotipos">
         <div class="container">
             <div class="row">
-                
+                <div class="col-sm-12 text-center">
+                    <h1>este es un guia, quitar cuando se alla cumplido el proposito de esta parte</h1>
+                </div>
             </div>
         </div>
     </div>
@@ -157,16 +172,16 @@
         <!--formulario interaccion-->
         <div class="container">
                     <div class="form-row">
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-2">
                             <label for="InputName4">your name</label>
                             <input type="text" class="form-control" id="InputName4">
                         </div>
                     </div>
-                    <div class="form-group col-md-4">
-                        <label for="InputEmail4">Your Email</label>
-                        <input type="text" class="form-control" id="InputEmail4">
-                    </div>
-                    <div class="form-group">
+                         <div class="form-group col-md-2">
+                            <label for="InputEmail4">Your Email</label>
+                            <input type="text" class="form-control" id="InputEmail4">
+                        </div>
+                    <div class="form-group col-md-6">
                         <label for="InputMessage">Message</label>
                         <input type="text" class="form-control" id="InputMessage">
                     </div>   
@@ -176,7 +191,10 @@
     <div class="redes-sociales">
         <div class="container">
             <div class="row">
-
+                <div class="col-sm-5">
+                    <h6>Copyright © 2018 Chen, Yi-Ya.
+                    </h6>
+                </div>
             </div>
         </div>
     </div>
