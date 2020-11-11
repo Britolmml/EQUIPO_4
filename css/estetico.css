@@ -3,7 +3,7 @@
     width: 170px;
     border-radius: 150px;
     background: #009975;
-    color: #195e4b;
+    border-color: #009975;
 }
 #variocolor{
     height: 50px;
@@ -16,6 +16,80 @@
     height: 50px;
     width: 170px;
     border-radius: 150px;
-    background: #fff;
-    color: #000000;
+}
+#tarjeta-de-color{
+   height: 450px;
+   background: #253664;
+   color: #ffffff;
+}
+#cartas-en-blanco{
+    height: 450px;
+}
+.introduccion{
+    padding-top: 241px;
+    padding-bottom: 163px;
+    background: aqua;
+}
+.nuestros-servicios{
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.informacion-extra{
+    padding-top: 100px;
+    padding-bottom: 115px;
+    background-color: aquamarine;
+}
+.precios{
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+.logotipos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aquamarine;
+}
+.formulario{
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+.redes-sociales{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #253664;
+    color: #ffffff;
+}
+#boton-medio{
+    height: 50px;
+    width: 170px;
+    border-radius: 150px;
+    background: aquamarine;
+    border-color: aquamarine;
+}
+#test-imagenes{
+    height: 180px;
+    width: 180px;
+}
+#titulo-1{
+    padding-bottom: 20px;
+}
+#titulo-3{
+    padding-bottom: 20px;
+}
+#titulo-6{
+    padding-bottom: 20px;
+}
+#titulo-4{
+    padding-bottom: 30px;
+}
+#separador-de-texto{
+    padding-bottom: 25px;
+}
+#titulo-3-2{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#precio{
+    height: 100px;
+    width: 150px;
 }
