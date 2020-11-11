@@ -27,8 +27,17 @@
 }
 .introduccion{
     padding-top: 241px;
-    padding-bottom: 163px;
-    background: aqua;
+    padding-bottom: 140px;
+    background-image: url(../Imagenes/banner-bk.jpg);
+    color: #ffffff;
+}
+.introduccion h1{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.introduccion p{
+    color: #ffffff;
+    padding-bottom: 20px;
 }
 .nuestros-servicios{
     padding-top: 100px;
@@ -43,6 +52,7 @@
     padding-top: 100px;
     padding-bottom: 115px;
 }
+
 .logotipos{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -51,6 +61,8 @@
 .formulario{
     padding-top: 90px;
     padding-bottom: 90px;
+    background-image: url(../Imagenes/contact-bk.jpg);
+    color: #ffffff;
 
 }
 .redes-sociales{
@@ -69,9 +81,6 @@
 #test-imagenes{
     height: 180px;
     width: 180px;
-}
-#titulo-1{
-    padding-bottom: 20px;
 }
 #titulo-3{
     padding-bottom: 20px;
@@ -92,4 +101,11 @@
 #precio{
     height: 100px;
     width: 150px;
+}
+#boton-form{
+    height: 50px;
+    width: 170px;
+    border-radius: 150px;
+    background: #009975;
+    border-color: #009975;
 }
