@@ -27,39 +27,47 @@
 }
 .introduccion{
     padding-top: 241px;
-    padding-bottom: 140px;
+    padding-bottom: 90px;
     background-image: url(../Imagenes/banner-bk.jpg);
     color: #ffffff;
 }
 .introduccion h1{
     color: #ffffff;
     padding-bottom: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 60px;
 }
 .introduccion p{
     color: #ffffff;
     padding-bottom: 20px;
 }
-
-.getearyl h1{
-padding-top: 1px;
-
-}
-
-
 .nuestros-servicios{
     padding-top: 100px;
     padding-bottom: 115px;
+}
+.nuestros-servicios h2{
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .informacion-extra{
     padding-top: 100px;
     padding-bottom: 115px;
     background-color: aquamarine;
 }
+.informacion-extra h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 20px;
+}
+.informacion-extra p{
+    padding-bottom: 20px;
+}
 .precios{
     padding-top: 100px;
     padding-bottom: 115px;
 }
-
+.precios h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 35px;
+}
 .logotipos{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -70,7 +78,11 @@ padding-top: 1px;
     padding-bottom: 90px;
     background-image: url(../Imagenes/contact-bk.jpg);
     color: #ffffff;
-
+    overflow: hidden;
+}
+.formulario h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-bottom: 20px;
 }
 .redes-sociales{
     padding-top: 25px;
@@ -89,21 +101,8 @@ padding-top: 1px;
     height: 180px;
     width: 180px;
 }
-#titulo-3{
-    padding-bottom: 20px;
-}
-#titulo-6{
-    padding-bottom: 20px;
-}
-#titulo-4{
-    padding-bottom: 30px;
-}
 #separador-de-texto{
     padding-bottom: 25px;
-}
-#titulo-3-2{
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 #precio{
     height: 100px;
@@ -111,8 +110,27 @@ padding-top: 1px;
 }
 #boton-form{
     height: 50px;
-    width: 170px;
+    width: 500px;
     border-radius: 150px;
     background: #009975;
     border-color: #009975;
+}
+#formulario-carta{
+    height: 300px;
+    width: 700px;
+}
+#color-texto-formulario{
+    color: #009975;
+}
+#inputEmail4{
+    color: #ffffff;
+    border-color: aquamarine;
+}
+#inputName4{
+    color: #ffffff;
+    border-color: aquamarine;
+}
+#inputMessage{
+    width: 550px;
+    height: 100px;
 }

@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estetico.css">
     <title>template en equipo</title>
 </head>
 <body>
     <!--parte 1 del maqueteado-->
     <div class="introduccion">
-        <div class="getearly">
-            <h1>Get Early Acces</h1>
-        </div>
         <div class="container">
+
             <div class="row">
-                <div class="col-sm-5">
-                    <h1>A New Way
+                <div class="col-sm-7">
+                    <h1>A New Way <br>
                         To Start Business</h1>
                     <p>Lorem ipsum dolor sit amet, id nec enim autem oblique, ei dico mentitum duo.
                         Illum iusto laoreet his te. Lorem partiendo mel ex. Ad vitae admodum voluptatum per.</p>
-                        <h2> Get Early Acces </h2>
                     <button id="primer-boton" class="btn btn-outline-dark">Get Started</button>
                 </div>
             </div>
@@ -76,7 +75,7 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <h1>Take a look inside</h1>
-                        <p id="separador-de-texto">Te iisque labitur eos, nec sale argumentum scribentur no,
+                        <p>Te iisque labitur eos, nec sale argumentum scribentur no,
                             augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.</p>
                             <button id="variocolor" class="btn">Learn more</button>
                     </div>
@@ -89,7 +88,7 @@
                 <div class="row">
                     <div class="col-sm-10.5 offset-sm-7">
                         <h1 id="titulo-3-2">Safe and reliable</h1>
-                        <p id="separador-de-texto">Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
+                        <p>Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
                             eum et oratio disputationi. Falli lobortis his ad</p>
                             <button id="variocolor" class="btn">Learn more</button>
                     </div>
@@ -103,7 +102,7 @@
             <div class="center">
                 <div class="row text-center">
                     <div class="col-sm-12 text-center">
-                        <h2 id="titulo-4">Check our pricing</h2>
+                        <h2>Check our pricing</h2>
                     </div>
                 </div>
                 <!--Parte de los precios-->
@@ -162,35 +161,42 @@
     <div class="formulario">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
-                    <h1 id="titulo-6">Contact Us</h1>
-                    <p>Te iisque labitur eos, nec sale argumentum scribentur,
-                        augue disputando in vim. Erat fugit sit at, ius lorem.</p>
-                        <p>Email : company_email@com</p>
-                        <p>Phone : 361-688-5824</p>
-                        <p>Address : 4826 White Avenue, Corpus Christi, Texas</p>
-                </div>
-            </div>
-        </div>
-        <!--formulario interaccion-->
-        <div class="container">
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Your Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputName4">Your Name</label>
-                    <input type="password" class="form-control" id="inputName4">
+                <div class="col-sm-6">
+                  <div class="card bg-transparent border-0">
+                    <div class="card-body">
+                        <h1 class="card-title">Contact Us</h1>
+                        <p class="card-text">Te iisque labitur eos, nec sale argumentum scribentur,augue disputando in vim. Erat fugit sit at, ius lorem.</p>
+                        <p class="card-text">Email : company_email@com</p>
+                        <p class="card-text">Phone : 361-688-5824</p>
+                        <p class="card-text">Address : 4826 White Avenue, Corpus Christi, Texas</p>
+                    </div>
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="inputMessage">Message</label>
-                  <input type="text" class="form-control" id="inputMessage">
+                <div class="col-sm-6">
+                  <div class="card bg-transparent border-0" id="formulario-carta">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-5">
+                                <label for="inputEmail4" id="color-texto-formulario">Your Email</label>
+                                <input type="email" class="form-control bg-transparent" id="inputEmail4">
+                              </div>
+                              <div class="form-group col-md-5">
+                                <label for="inputName4" id="color-texto-formulario">Your Name</label>
+                                <input type="name" class="form-control bg-transparent" id="inputName4">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputMessage" id="color-texto-formulario">Message</label>
+                              <input type="text" class="form-control bg-transparent" id="inputMessage">
+                            </div>
+                            <br>
+                            <button id="boton-form" class="btn btn-outline-dark">Submit</button>
+                        </form>
+                    </div>
+                  </div>
                 </div>
-                <button id="boton-form" class="btn btn-outline-dark">Submit</button>
-            </form>
+              </div>
         </div>
     </div>
     <!--parte 7 maqueteado-->
