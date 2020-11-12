@@ -2,8 +2,8 @@
     height: 50px;
     width: 170px;
     border-radius: 150px;
-    background: #009975;
-    border-color: #009975;
+    background: #0fff9f;
+    border-color: #0fff9f;
 }
 #variocolor{
     height: 50px;
@@ -47,11 +47,11 @@
 }
 .nuestros-servicios h2{
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 40px;
 }
 .informacion-extra{
     padding-top: 100px;
     padding-bottom: 115px;
-    background-color: aquamarine;
 }
 .informacion-extra h1{
     font-family: 'Merriweather Sans', sans-serif;
@@ -60,6 +60,11 @@
 .informacion-extra p{
     padding-bottom: 20px;
 }
+.informacion-extra img{
+    float: right;
+    height: 300px;
+    width: 500px;
+}
 .precios{
     padding-top: 100px;
     padding-bottom: 115px;
@@ -67,6 +72,7 @@
 .precios h2{
     font-family: 'Merriweather Sans', sans-serif;
     padding-bottom: 35px;
+    font-size: 40px;
 }
 .logotipos{
     padding-top: 50px;
@@ -75,10 +81,9 @@
 }
 .formulario{
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
     background-image: url(../Imagenes/contact-bk.jpg);
     color: #ffffff;
-    overflow: hidden;
 }
 .formulario h1{
     font-family: 'Merriweather Sans', sans-serif;
@@ -94,8 +99,8 @@
     height: 50px;
     width: 170px;
     border-radius: 150px;
-    background: aquamarine;
-    border-color: aquamarine;
+    background: #0fff9f;
+    border-color: #0fff9f;
 }
 #test-imagenes{
     height: 180px;
@@ -110,27 +115,39 @@
 }
 #boton-form{
     height: 50px;
-    width: 500px;
+    width: 550px;
     border-radius: 150px;
-    background: #009975;
-    border-color: #009975;
+    background: #0fff9f;
+    border-color: #0fff9f;
 }
 #formulario-carta{
     height: 300px;
     width: 700px;
 }
 #color-texto-formulario{
-    color: #009975;
+    color: #0fff9f;
 }
 #inputEmail4{
     color: #ffffff;
-    border-color: aquamarine;
+    border-color: #0fff9f;
 }
 #inputName4{
     color: #ffffff;
-    border-color: aquamarine;
+    border-color: #0fff9f;
 }
 #inputMessage{
     width: 550px;
     height: 100px;
+    border-color: #0fff9f;
+}
+.datos-ex{
+    padding-top: 20px;
+}
+.datos-ex h1{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.datos-ex img{
+    float: left;
+    height: 300px;
+    width: 500px;
 }
